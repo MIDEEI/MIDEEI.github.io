@@ -1,0 +1,77 @@
+/* GENERAL PAGE STYLING */
+body {
+  background-color: whitesmoke;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: black;
+}
+
+/* SECTION BOXES */
+.section-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* HEADERS */
+h1, h3 {
+  font-weight: 600;
+  color: black;
+}
+
+/* HIGHLIGHT PARAGRAPH */
+.highlight {
+  background: lightsteelblue;
+  padding: 15px;
+  border-left: 5px solid royalblue;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+/* NAVBAR CUSTOMIZATION */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background: lightblue;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.jumbotron img {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* CARDS */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* TABLE */
+table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: blue;
+  color: white;
+}
+
