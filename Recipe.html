@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Recipe (CSS Version)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap (same as homepage) -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- Your shared stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: orangered;
+        }
+
+        .box {
+            background: white;
+            max-width: 700px;
+            margin: auto;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        picture, iframe {
+            width: 100%;
+            display: block;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            display: block;
+            margin: auto;
+        }
+
+        ul, ol {
+            background: palegoldenrod;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 mb-4">
+    <div class="container">
+        <a class="navbar-brand" href="indexold.html">Noah Ross</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="indexold.html#bio">Bio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="indexold.html#hobbies">Hobbies</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="indexold.html#countries">Countries</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        Recipe
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Recipe.html">CSS</a>
+                        <a class="dropdown-item" href="recipe3.html">Bootstrap</a>
+                        <a class="dropdown-item" href="indexold.html#media">Media</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1>My Favorite Pizza</h1>
+
+<div class="box">
+
+    <h2>Backstory</h2>
+    <p>
+        Pizza started in Naples, Italy. People used flatbread with tomatoes,
+        cheese, and herbs. Over time, pizza became popular everywhere.
+        I like pizza because it tastes great and comes in many flavors.
+    </p>
+
+    <picture>
+       <img src="Pepperoni.jpeg" alt="pizza" class="img-fluid rounded">
+    </picture>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Pizza dough</li>
+        <li>Tomato sauce</li>
+        <li>Mozzarella cheese</li>
+        <li>Pepperoni</li>
+    </ul>
+
+    <h2>Steps</h2>
+    <ol>
+        <li>Preheat the oven to 475°F.</li>
+        <li>Spread the sauce on the dough.</li>
+        <li>Add cheese and pepperoni.</li>
+        <li>Bake for 12–15 minutes.</li>
+        <li>Eat and enjoy!</li>
+    </ol>
+
+    
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
